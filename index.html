@@ -35,12 +35,14 @@
         />
 
         <style>
-            body {
-                /*text-align: center;*/
+            header {
+                display: flex;  /* This will turn the container into a flexible box */
+                align-items: center;  /* Vertically centers content in a row or column */
+                justify-content: center; /* Horizontally centers content */
             }
 
-            header {
-                text-align: center;
+            header > h2 {
+                margin: 0 1em; /* Space between picture and h2 */
             }
 
             .profile-picture {
@@ -74,12 +76,13 @@
                 />
             </picture>
             <h2>Potomac Solutions</h2>
-            <p>
-                Potomac solutions is a software and technology consultancy based in Maryland (DC area) with a
-                geographically distributed workforce specializing in Big Data, Cloud Computing,
-                Full stack development, AI and blockchain.
-            </p>
         </header>
+
+        <p>
+            Potomac solutions is a software and technology consultancy based in Maryland (DC area) with a
+            geographically distributed workforce specializing in Big Data, Cloud Computing,
+            Full stack development, AI and blockchain.
+        </p>
 
         <h4>Services</h4>
         <p>
